@@ -28,6 +28,7 @@ It wrote the code, ran away, and now the game is unplayable.
 - [X] Describe the game's purpose.
       The game’s purpose is to guess a hidden number before you run out of tries. The app is meant to tell you if your guess is too high, too low, or correct, while tracking your score.
 - [X] Detail which bugs you found.
+
       1: New Game does not actually reset the game after a win/loss. 
 
       2: The displayed range and the actual new-game range do not respect difficulty. The UI always says Guess a number between 1 and 100
@@ -38,6 +39,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 
 - [X] Explain what fixes you applied.
+
    1: New Game now fully reopens the game by setting status back to "playing". I also clear the guess history there, so the game starts fresh instead of staying stuck after a win or loss.
 
    2: The difficulty range is now used in both places it should be: the message now shows Guess a number between {low} and {high}, and New Game now creates the new secret number with random.randint(low, high) instead of always using 1 to 100
@@ -46,7 +48,8 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
-![alt text](image.png)
+- [ ] <img width="836" height="614" alt="image" src="https://github.com/user-attachments/assets/96f08198-2a87-4e45-92b1-180028d42395" />
+
 
 ## 🚀 Stretch Features
 
