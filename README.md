@@ -26,6 +26,7 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [X] Describe the game's purpose.
+      
       The game’s purpose is to guess a hidden number before you run out of tries. The app is meant to tell you if your guess is too high, too low, or correct, while tracking your score.
 - [X] Detail which bugs you found.
 
