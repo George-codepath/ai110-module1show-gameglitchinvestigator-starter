@@ -26,7 +26,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
-  I decided a bug was really fixed by checking the exact code path that caused the problem in the first place. For the reset bug, I confirmed that pressing New Game now sets status back to "playing", which means the stop condition no longer traps the user after a win or loss.
+  
+I decided a bug was really fixed by checking the exact code path that caused the problem in the first place. For the reset bug, I confirmed that pressing New Game now sets status back to "playing", which means the stop condition no longer traps the user after a win or loss.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
