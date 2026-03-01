@@ -46,6 +46,12 @@ It wrote the code, ran away, and now the game is unplayable.
    2: The difficulty range is now used in both places it should be: the message now shows Guess a number between {low} and {high}, and New Game now creates the new secret number with random.randint(low, high) instead of always using 1 to 100
 
 
+   ## Hint
+   Look closely at what the New Game button resets. If the app still thinks the game is already won or lost, it may stop before the new round can start. Is this good logic??
+
+
+
+
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
