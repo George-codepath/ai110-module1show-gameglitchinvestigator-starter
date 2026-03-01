@@ -41,11 +41,12 @@ It wrote the code, ran away, and now the game is unplayable.
    1: New Game now fully reopens the game by setting status back to "playing". I also clear the guess history there, so the game starts fresh instead of staying stuck after a win or loss.
 
    2: The difficulty range is now used in both places it should be: the message now shows Guess a number between {low} and {high}, and New Game now creates the new secret number with random.randint(low, high) instead of always using 1 to 100
-   
+
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 
